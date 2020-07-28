@@ -6,7 +6,7 @@ Project Overview
 In this project,I have used knowledge of computer vision techniques to build a classifier for images of traffic lights! 
 In the dataset of traffic light images, one of three lights is illuminated: red, yellow, or green.
 
-#Classification Steps:
+Classification Steps:
 In the provided notebook, I have done pre-process of these images, extract features that will help distinguish the different types of images, 
 and use those features to classify the traffic light images into three categories: red, yellow, or green. The tasks will be broken down into a few sections:
 
