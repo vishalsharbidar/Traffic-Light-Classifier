@@ -26,3 +26,11 @@ lassification model.
 
 5. Evaluate your model. To pass this project, your classifier must be >90% accurate and never classify any red lights as green; it's likely that you'll need to improve 
 the accuracy of your classifier by changing existing features or adding new features. I'd also encourage you to try to get as close to 100% accuracy as possible!
+
+
+### 1. Loading and Visualizing the Traffic Light Dataset
+
+This traffic light dataset consists of 1484 number of color images in 3 categories - red, yellow, and green. As with most human-sourced data, the data is not evenly distributed among the types. There are:
+* 904 red traffic light images
+* 536 green traffic light images
+* 44 yellow traffic light images
