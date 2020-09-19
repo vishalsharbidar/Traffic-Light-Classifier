@@ -40,3 +40,5 @@ This traffic light dataset consists of 1484 number of color images in 3 categori
 Each image has a particular label (Red, Yellow, Green) and all the images are of different sizes. The input images and output labels need to be standardized. That is, all the input should be of the same type of data and of the same size, and the output should be a numerical label. So all the images will be preprocessed to a defined shape of 32 x 32 px and assigned a one-hot encoded label. 
 
 ![preprocessing](/figure/Std_img.PNG)
+
+### 3. Feature extraction
