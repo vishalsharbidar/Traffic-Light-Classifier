@@ -51,4 +51,9 @@ On analyzing the image data, I found that sharp changes in saturation could be s
 ![FE2](/figure/H_mask.PNG)
 
 ### 4. Classification and visualizing error
+Here I havce created a function to sort the missclassified images and saved it in MISCLASSIFIED.
+
+![Cla](/figure/Miss.PNG)
+
 ### 5. Evaluate your model
+Classifier classified the images with an accuracy of 97.6% and never classify any red lights as green.
