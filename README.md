@@ -42,3 +42,13 @@ Each image has a particular label (Red, Yellow, Green) and all the images are of
 ![preprocessing](/figure/Std_img.PNG)
 
 ### 3. Feature extraction
+
+On analyzing the image data, I found that sharp changes in saturation could be seen around the traffic light. This makes sense, because the color of the light significantly changes the saturation around it. I developed an edge detection, which allowed me to visualize these changes. The problem was there was a lot of noise in the edge detection, and it was difficult to go from edges to a mask. I solved this by blurring the edges using another filter until the detected edges bled into each other. Areas with lots of edges in saturation now became bright spots after blurring edges. I used these bright spots to create a mask, which I applyed to value. Then I summed up value in the top, middle and bottom thirds. A bright top third indicates a red light, a bright middle indicates yellow, and a bright bottom indicates green
+
+![FE](/figure/HSV.PNG)
+
+
+![FE2](/figure/H_mask.PNG)
+
+### 4. Classification and visualizing error
+### 5. Evaluate your model
